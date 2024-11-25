@@ -35,8 +35,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn" onClick={() => router.push("/signin")}>
-          Login
+        <button
+          className="btn bg-gray-900 text-white/80"
+          onClick={() => router.push("/signin")}
+        >
+          Sign Out
         </button>
       </div>
     </div>
